@@ -1,5 +1,15 @@
 class Message:
-    def __init__(self, id, role, content, user_id, files=None, source_documents=None, created_at=None, updated_at=None):
+    def __init__(
+        self,
+        id,
+        role,
+        content,
+        user_id,
+        files=None,
+        source_documents=None,
+        created_at=None,
+        updated_at=None,
+    ):
         self.id = id
         self.role = role
         self.content = content

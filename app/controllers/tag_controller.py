@@ -1,8 +1,10 @@
 from fastapi import APIRouter
+
 from app.services.tag_service import TagService
 
 router = APIRouter()
 tag_service = TagService()
+
 
 @router.get("/tags", tags=["tags"])
 def get_all_tags():

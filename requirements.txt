@@ -3,3 +3,7 @@ python-dotenv
 fastapi
 uvicorn
 pytest
+azure-identity
+azure-keyvault-secrets
+black
+isort

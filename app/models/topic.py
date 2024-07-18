@@ -1,5 +1,16 @@
 class Topic:
-    def __init__(self, id, name, description, user_id, tags=None, pinned=False, pinned_at=None, created_at=None, updated_at=None):
+    def __init__(
+        self,
+        id,
+        name,
+        description,
+        user_id,
+        tags=None,
+        pinned=False,
+        pinned_at=None,
+        created_at=None,
+        updated_at=None,
+    ):
         self.id = id
         self.name = name
         self.description = description

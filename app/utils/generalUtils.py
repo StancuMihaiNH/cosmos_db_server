@@ -1,6 +1,7 @@
 from typing import OrderedDict
 from uuid import uuid4
 
+
 def generate_unique_id(service, field_name="id"):
     while True:
         new_id = str(uuid4())
